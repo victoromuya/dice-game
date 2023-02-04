@@ -60,7 +60,7 @@ export default function App() {
     return (
         <main>
             {tenzies && <Confetti />}
-            <h1>Tenzies</h1>
+            <h1>Roll The Dice</h1>
             <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="die-container">{diceElements}</div>
             <button className="roll-dice" onClick={rollUnheldDice}>
